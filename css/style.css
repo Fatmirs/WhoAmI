@@ -474,6 +474,8 @@ a {
     transition: all 0.5s;
     cursor: pointer;
     opacity: 0;
+    font-weight: bold;
+    font-size: 11px;
 }
 
 #about .side_wrapper .links div:hover {
@@ -739,7 +741,7 @@ a {
 
 #projects .heading {
     width: 100%;
-    margin-left: 180px;
+    margin-left: 30px;
     font-size: 8rem;
     color: #2b2b2b;
     letter-spacing: 10px;
