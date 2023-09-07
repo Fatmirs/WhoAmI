@@ -47,6 +47,6 @@
 ### ✔  **Hobbies :**  Read 📕, Music 🎧, Games 🎮
 <hr>
 
-![image](https://github.com/gustavoSoriano/gustavosoriano/blob/master/dino.gif)
+![image](https://github.com/Fatmirs/fatmirs/blob/3bfcdcb9ef2030d46ee988f8a6b556cfe488f162/dino.gif)
 
 <hr>
