@@ -58,8 +58,4 @@
 ### ✔  **Domain :** Full-Stack Web Development 💻
 ### ✔  **Skills :** Full Stack Developer, Laravel, Web Development, PHP, MySQL , SQL, HTML, CSS, JavaScript , PhpStorm, Docker, Git/GitHub, PHPUnit, WordPress, Shopify, TailwindCSS, Bootstrap
 ### ✔  **Hobbies :**  Read 📕, Music 🎧, Games 🎮
-<hr>
 
-![image](https://github.com/Fatmirs/fatmirs/blob/3bfcdcb9ef2030d46ee988f8a6b556cfe488f162/dino.gif)
-
-<hr>
