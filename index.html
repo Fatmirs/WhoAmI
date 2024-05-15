@@ -10,6 +10,27 @@
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/_media_query.scss">
+    <style>
+    body {
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .star {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        animation: twinkle 5s linear infinite;
+    }
+    
+    @keyframes twinkle {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+</style>
 </head>
 
 <body class="loading">
@@ -463,6 +484,21 @@
 <script src="js/animation_services.js"></script>
 <script src="js/animation_project.js"></script>
 <script src="js/animation.js"></script>
+    <script>
+    // Create stars dynamically
+    function createStar() {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        star.style.left = Math.random() * window.innerWidth + 'px';
+        star.style.top = Math.random() * window.innerHeight + 'px';
+        document.body.appendChild(star);
+    }
+
+    // Create 100 stars
+    for (let i = 0; i < 100; i++) {
+        createStar();
+    }
+</script>
 </body>
 
 </html>
