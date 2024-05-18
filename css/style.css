@@ -21,6 +21,32 @@ html {
     scroll-behavior: smooth;
 }
 
+.star-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: moveStar 3s linear infinite;
+    
+}
+
+@keyframes moveStar {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
 body {
     margin: 0;
     padding: 0;
